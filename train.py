@@ -1,7 +1,7 @@
 import warnings
 import os
 import torch
-os.environ['CUDA_LAUNCH_BLOCKING'] = '1' # 下面老是报错 shape 不一致
+os.environ['CUDA_LAUNCH_BLOCKING'] = '1' 
 
 warnings.filterwarnings('ignore')
 from ultralytics import YOLO
